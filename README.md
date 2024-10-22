@@ -81,21 +81,17 @@ sudo systemctl status prometheus
   static_configs:
     - targets: ["remote_addr:9100"] #give webserver ip
 ```
-### Step 10: Hit public ip in browser. 
-
-![Screenshot 2024-10-22 110704](https://github.com/user-attachments/assets/382f9072-a2c4-43f7-83f1-d983a25aaa20)
-
-### Step 11: Connect webserver instance and create a dedicated user for Node Exporter.
+### Step 10: Connect webserver instance and create a dedicated user for Node Exporter.
 ```
 sudo useradd --no-create-home node_exporter
 ```
-### Step 12: Download and extract the Node Exporter, then copy the executable and the service file to the systemd directory. [#Check here for latest version](https://prometheus.io/download/)
+### Step 11: Download and extract the Node Exporter, then copy the executable and the service file to the systemd directory. [#Check here for latest version](https://prometheus.io/download/)
 ```
 wget https://github.com/prometheus/node_exporter/releases/download/v1.8.2/node_exporter-1.8.2.linux-amd64.tar.gz 
 tar xzf node_exporter-1.8.2.linux-amd64.tar.gz
 sudo cp node_exporter-1.8.2.linux-amd64/node_exporter /usr/local/bin/node_exporter
 ```
-### Step 13: Edit the service file.
+### Step 12: Edit the service file.
 ```
 sudo cp node-exporter.service /etc/systemd/system/node-exporter.service
 ```
@@ -116,13 +112,16 @@ ExecStart=/usr/local/bin/node_exporter
 [Install]
 WantedBy=multi-user.target
 ```
-### Step 14: Reload the systemd manager configuration, enable the Node Exporter service to start on boot, start the Node Exporter service, and check its status.
+### Step 13: Reload the systemd manager configuration, enable the Node Exporter service to start on boot, start the Node Exporter service, and check its status.
 ```
 sudo systemctl daemon-reload
 sudo systemctl enable node-exporter
 sudo systemctl start node-exporter
 sudo systemctl status node-exporter
 ```
+### Step 14: Hit public ip in browser. 
+
+![Screenshot 2024-10-22 110704](https://github.com/user-attachments/assets/382f9072-a2c4-43f7-83f1-d983a25aaa20)
 
 ## Graffana [#Check here for latest version](https://grafana.com/docs/grafana/latest/setup-grafana/installation/debian/)
 ### Step 1: Install the prerequisite packages.
