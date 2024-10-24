@@ -93,7 +93,7 @@ sudo cp node_exporter-1.8.2.linux-amd64/node_exporter /usr/local/bin/node_export
 ```
 ### Step 12: Edit the service file.
 ```
-sudo cp node-exporter.service /etc/systemd/system/node-exporter.service
+vim node-exporter.service /etc/systemd/system/node-exporter.service
 ```
 ```
 [Unit]
