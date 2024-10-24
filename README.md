@@ -91,7 +91,7 @@ wget https://github.com/prometheus/node_exporter/releases/download/v1.8.2/node_e
 tar xzf node_exporter-1.8.2.linux-amd64.tar.gz
 sudo cp node_exporter-1.8.2.linux-amd64/node_exporter /usr/local/bin/node_exporter
 ```
-### Step 12: Edit the service file.
+### Step 12: Edit the Node exporter service file.
 ```
 vim node_exporter-1.8.2.linux-amd64/node-exporter.service 
 ```
@@ -112,7 +112,7 @@ ExecStart=/usr/local/bin/node_exporter
 [Install]
 WantedBy=multi-user.target
 ```
-### Step 13: Copy the file 
+### Step 13: Copy the Node exporter service file to the systemd directory.
 ```
 sudo cp node_exporter-1.8.2.linux-amd64/node-exporter.service /etc/systemd/system/
 ```
