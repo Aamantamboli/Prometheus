@@ -155,3 +155,16 @@ sudo apt-get update
 # Installs the latest OSS release:
 sudo apt-get install grafana
 ```
+### Step 6: Start Grafana server.
+```
+systemctl status grafana-server
+systemctl enable grafana-server
+systemctl start grafana-server
+systemctl restart grafana-server
+systemctl status grafana-server
+```
+### Step 7: Hit public ip in browser.
+
+![WhatsApp Image 2024-10-24 at 11 41 11_1a92b1b1](https://github.com/user-attachments/assets/83f4ac70-47e0-431b-9553-375a9494c5ff)
+
+### Step 8: By default username and password is admin
