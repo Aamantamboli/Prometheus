@@ -73,7 +73,7 @@ sudo systemctl enable prometheus
 sudo systemctl start prometheus
 sudo systemctl status prometheus
 ```
-### Step 9: Edit the Prometheus configuration file.
+### Step 9: Edit the Prometheus configuration file.(/etc/prometheus/prometheus.yml)
 ```
 ...
 - job_name: "remote_collector"
