@@ -64,7 +64,7 @@ WantedBy=multi-user.target
 ```
 ### Step 7: Copy the Prometheus service file to the systemd directory.
 ```
-sudo cp prometheus-2.55.0-rc.1.linux-amd64/prometheus.service /etc/systemd/system/prometheus.service
+sudo cp prometheus-2.55.0-rc.1.linux-amd64/prometheus.service /etc/systemd/system/
 ```
 ### Step 8: Reload the systemd manager configuration, enable the Prometheus service to start on boot, start the Prometheus service, and check its status.
 ```
@@ -114,7 +114,7 @@ WantedBy=multi-user.target
 ```
 ### Step 13: Copy the file 
 ```
-sudo cp node_exporter-1.8.2.linux-amd64/node-exporter.service /etc/systemd/system/node-exporter.service
+sudo cp node_exporter-1.8.2.linux-amd64/node-exporter.service /etc/systemd/system/
 ```
 ### Step 14: Reload the systemd manager configuration, enable the Node Exporter service to start on boot, start the Node Exporter service, and check its status.
 ```
