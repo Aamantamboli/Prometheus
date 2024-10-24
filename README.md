@@ -73,13 +73,15 @@ sudo systemctl enable prometheus
 sudo systemctl start prometheus
 sudo systemctl status prometheus
 ```
-### Step 9: Edit the Prometheus configuration file.(/etc/prometheus/prometheus.yml)
+### Step 9: Edit the Prometheus configuration file.
 ```
-...
+sudo vim /etc/prometheus/prometheus.yml
+```
+```
 - job_name: "remote_collector"
   scrape_interval: 10s
   static_configs:
-    - targets: ["remote_addr:9100"] #give webserver ip
+    - targets: ["remote_addr:9100"] #give webserver ip and port
 ```
 ### Step 10: Connect webserver instance and create a dedicated user for Node Exporter.
 ```
