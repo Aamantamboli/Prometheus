@@ -123,11 +123,15 @@ sudo systemctl enable node-exporter
 sudo systemctl start node-exporter
 sudo systemctl status node-exporter
 ```
+### Step 15: Go to prometheus server and restart 
+```
+sudo systemctl restart prometheus
+```
 ### Step 15: Hit public ip in browser. 
 
 ![Screenshot 2024-10-22 110704](https://github.com/user-attachments/assets/382f9072-a2c4-43f7-83f1-d983a25aaa20)
 
-## Graffana [#Check here for latest version](https://grafana.com/docs/grafana/latest/setup-grafana/installation/debian/)
+## Graffana in Prometheus [#Check here for latest version](https://grafana.com/docs/grafana/latest/setup-grafana/installation/debian/)
 ### Step 1: Install the prerequisite packages.
 ```
 sudo apt-get install -y apt-transport-https software-properties-common wget
