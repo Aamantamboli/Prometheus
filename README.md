@@ -159,11 +159,11 @@ sudo apt-get install grafana
 ```
 ### Step 6: Start Grafana server.
 ```
-systemctl status grafana-server
-systemctl enable grafana-server
-systemctl start grafana-server
-systemctl restart grafana-server
-systemctl status grafana-server
+sudo systemctl status grafana-server
+sudo systemctl enable grafana-server
+sudo systemctl start grafana-server
+sudo systemctl restart grafana-server
+sudo systemctl status grafana-server
 ```
 ### Step 7: Hit public ip in browser.
 
