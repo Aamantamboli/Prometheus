@@ -114,7 +114,7 @@ WantedBy=multi-user.target
 ```
 ### Step 13: Copy the file 
 ```
-sudo cp node_exporter-1.8.2.linux-amd64/node-exporter.service /etc/systemd/system/prometheus.service
+sudo cp node_exporter-1.8.2.linux-amd64/node-exporter.service /etc/systemd/system/node-exporter.service
 ```
 ### Step 14: Reload the systemd manager configuration, enable the Node Exporter service to start on boot, start the Node Exporter service, and check its status.
 ```
