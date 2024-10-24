@@ -93,7 +93,7 @@ sudo cp node_exporter-1.8.2.linux-amd64/node_exporter /usr/local/bin/node_export
 ```
 ### Step 12: Edit the service file.
 ```
-vim node-exporter.service /etc/systemd/system/node-exporter.service
+vim node_exporter-1.8.2.linux-amd64/node-exporter.service 
 ```
 ```
 [Unit]
@@ -112,14 +112,18 @@ ExecStart=/usr/local/bin/node_exporter
 [Install]
 WantedBy=multi-user.target
 ```
-### Step 13: Reload the systemd manager configuration, enable the Node Exporter service to start on boot, start the Node Exporter service, and check its status.
+### Step 13: Copy the file 
+```
+sudo cp node_exporter-1.8.2.linux-amd64/node-exporter.service /etc/systemd/system/prometheus.service
+```
+### Step 14: Reload the systemd manager configuration, enable the Node Exporter service to start on boot, start the Node Exporter service, and check its status.
 ```
 sudo systemctl daemon-reload
 sudo systemctl enable node-exporter
 sudo systemctl start node-exporter
 sudo systemctl status node-exporter
 ```
-### Step 14: Hit public ip in browser. 
+### Step 15: Hit public ip in browser. 
 
 ![Screenshot 2024-10-22 110704](https://github.com/user-attachments/assets/382f9072-a2c4-43f7-83f1-d983a25aaa20)
 
