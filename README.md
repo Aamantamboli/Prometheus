@@ -23,7 +23,7 @@ sudo cp prometheus-2.55.0-rc.1.linux-amd64/prometheus /usr/local/bin
 sudo cp prometheus-2.55.0-rc.1.linux-amd64/promtool /usr/local/bin
 sudo cp -r prometheus-2.55.0-rc.1.linux-amd64/consoles /etc/prometheus/
 sudo cp -r prometheus-2.55.0-rc.1.linux-amd64/console_libraries /etc/prometheus
-sudo cp prometheus-2.55.0-rc.1.linux-amd64prometheus.yml /etc/prometheus/
+sudo cp prometheus-2.55.0-rc.1.linux-amd64/prometheus.yml /etc/prometheus/
 ```
 ### Step 4: Change the ownership of the Prometheus configuration and binary files to the `prometheus` user and group, including all files in the consoles and console_libraries directories, with the following commands.
 ```
