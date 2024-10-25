@@ -32,6 +32,9 @@ receivers:
 ```
 ### Step 6: Configure Alertmanager as a service.
 ```
+sudo vim /etc/systemd/system/alertmanager.service
+```
+```
 [Unit]
 Description=Alert Manager
 Wants=network-online.target
