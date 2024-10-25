@@ -1,6 +1,6 @@
 # Install Prometheus on AWS EC2
 ### Step 1: Create an AWS EC2 Instance
-### Step 2: Connect EC2 insatnce and Install Prometheus
+### Step 2: Connect EC2 instance and Install Prometheus
 ### Step 3: Create a Prometheus user without a home directory, and set up directories for configuration and data storage with the following commands.
 ```
 sudo useradd --no-create-home prometheus
@@ -80,3 +80,4 @@ sudo systemctl enable prometheus
 sudo systemctl start prometheus
 sudo systemctl status prometheus
 ```
+### Step 10: Hit public ip of your instance and you will get the output.
