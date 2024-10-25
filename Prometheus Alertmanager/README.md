@@ -99,6 +99,9 @@ sudo chown -R prometheus:prometheus /etc/prometheus
 ```
 ### Step 11: Edit Prometheus configuration file.
 ```
+sudo vim /etc/prometheus/prometheus.yml
+```
+```
 global:
   scrape_interval: 1s
   evaluation_interval: 1s
