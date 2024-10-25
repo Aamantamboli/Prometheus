@@ -1,8 +1,8 @@
 # Prometheus Alertmanager
 
-### Step 1: Install Prometheus on AWS EC2 [#Check here for installation](https://github.com/Aamantamboli/Prometheus/tree/main/Prometheus%20Installation)
-### Step 2: Prometheus Node Exporter on AWS EC2 [#Check here for installation](https://github.com/Aamantamboli/Prometheus/tree/main/Node%20Exporter%20Installation)
-### Step 3: Prometheus Discovery Service on AWS EC2 [#Check here for installation](https://github.com/Aamantamboli/Prometheus/tree/main/Prometheus%20Service%20Discovery)
+### Step 1: Install Prometheus on AWS EC2.[#Check here for installation](https://github.com/Aamantamboli/Prometheus/tree/main/Prometheus%20Installation)
+### Step 2: Prometheus Node Exporter on AWS EC2.[#Check here for installation](https://github.com/Aamantamboli/Prometheus/tree/main/Node%20Exporter%20Installation)
+### Step 3: Prometheus Discovery Service on AWS EC2.[#Check here for installation](https://github.com/Aamantamboli/Prometheus/tree/main/Prometheus%20Service%20Discovery)
 ### Step 4: Connect Prometheus server and install Alertmanager.[#Check here for latest version](https://prometheus.io/download/)
 ```
 wget https://github.com/prometheus/alertmanager/releases/download/v0.21.0/alertmanager-0.21.0.linux-amd64.tar.gz
