@@ -129,5 +129,8 @@ sudo systemctl restart prometheus
 ```
 ## Try It Out
 ## Turn off the Node Exporter AWS EC2 Instance
+
+![image](https://github.com/user-attachments/assets/15071778-1f2b-4d59-ae86-6a82e109e87b)
+
 ## Wait for 3 minutes and check the Alertmanager URL that is installed in your prometheus-server instance
 ## Check your email
