@@ -81,3 +81,5 @@ sudo systemctl start prometheus
 sudo systemctl status prometheus
 ```
 ### Step 10: Hit public ip of your instance and you will get the output.
+
+![image](https://github.com/user-attachments/assets/572361a9-fc41-46ac-859e-d75ad71a6960)
