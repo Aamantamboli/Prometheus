@@ -3,6 +3,9 @@
 ### Step 2: Configure Prometheus server
 ### Step 3: Edit the Prometheus service file.
 ```
+sudo vim /etc/prometheus/prometheus.yml
+```
+```
 global:
   scrape_interval: 1s
   evaluation_interval: 1s
