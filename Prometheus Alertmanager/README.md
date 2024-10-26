@@ -310,3 +310,13 @@ To configure your security group, add rules to allow inbound traffic on these po
 ## Conclusion
 
 You have successfully set up Prometheus, Node Exporter, and Alertmanager. Make sure to replace placeholders like email addresses and AWS credentials with your actual values. You can access Prometheus at `http://your-server-ip:9090` and Alertmanager at `http://your-server-ip:9093`.
+
+## Try It Out
+### Turn off the Node Exporter AWS EC2 Instance
+
+![Screenshot 2024-10-25 221307](https://github.com/user-attachments/assets/6eeeaa25-3c08-4db7-a1c3-1d9432be8c8a)
+
+### Wait for 3 minutes and check the Alertmanager URL that is installed in your prometheus-server instance
+### Check your email
+
+![Screenshot 2024-10-24 150757](https://github.com/user-attachments/assets/3c2d23c2-8816-471f-869f-f745262a23e8)
