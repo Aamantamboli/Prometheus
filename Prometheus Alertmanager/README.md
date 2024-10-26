@@ -129,7 +129,7 @@ sudo mkdir /var/lib/alertmanager
 
 Here’s the steps for generating an app password for use with Prometheus Alertmanager:
 
-# Generating an App Password for Prometheus Alertmanager
+## Generating an App Password for Prometheus Alertmanager
 
 This guide explains how to generate an app password for your Google account to be used with Prometheus Alertmanager when 2-Step Verification (2FA) is enabled.
 
