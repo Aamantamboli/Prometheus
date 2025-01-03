@@ -146,7 +146,7 @@ Visit [Google Account Management](https://myaccount.google.com) and ensure the f
 
 1. In the Google Account settings, search for "app password."
 
-   ![Screenshot 2024-10-25 171128](https://github.com/user-attachments/assets/29b600da-1ba2-4ded-bfe4-10ce0e7835a8)
+![Screenshot 2024-10-25 171128](https://github.com/user-attachments/assets/fd1241c5-7b69-42c8-8e0e-16f16418e16a)
 
 ### Step 12: Generate App Password
 
@@ -154,7 +154,7 @@ Visit [Google Account Management](https://myaccount.google.com) and ensure the f
 2. Give your app a name (e.g., "Prometheus Alertmanager") and create it.
 3. Copy the generated 16-digit passcode.
 
-   ![Screenshot 2024-10-25 171202](https://github.com/user-attachments/assets/49f8079a-f12b-494b-8102-7f94d5b25dd0)
+![Screenshot 2024-10-25 171202](https://github.com/user-attachments/assets/fd6e12ef-d6d3-4bb0-adb8-6f8458726d6e)
 
 ## Conclusion
 
